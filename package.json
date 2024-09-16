@@ -1,0 +1,49 @@
+{
+  "name": "josemagalhaesnt",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0",
+    "react-timeline-scribble": "^1.0.14",
+    "rfs": "^9.0.2",
+    "styled-components": "^4.4.1"
+  },
+  "homepage": "https://josemagalhaesnt.github.io",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
+    "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' ",
+    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "prettier-eslint": "^9.0.1",
+    "prettier-eslint-cli": "^5.0.0",
+    "prettier-stylelint": "^0.4.2"
+  }
+}
